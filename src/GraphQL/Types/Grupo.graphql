@@ -1,0 +1,8 @@
+type Grupo {
+  id: ID!
+  grupo: String!
+}
+
+type Query {
+  getGrupos: [Grupo]!
+}
